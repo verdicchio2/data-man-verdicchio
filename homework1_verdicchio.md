@@ -2,8 +2,6 @@
 ##Homework 1
 ###Dirk Verdicchio
 
-\hline
-
 __1. When was 'Jerry Maguire' released?__
 
     sqlite> select title from movies where title glob 'Jer*';
@@ -37,9 +35,12 @@ __4. Which movies have reviews?__
     The Da Vinci Code|23
 
  
-5. What roles were acted in 'Unforgiven'?
-6. What roles were acted in 'Cloud Atlas'?
-7. How many different people acted in 'Cloud Atlas'? (Hint: if you say `SELECT DISTINCT` instead of `SELECT`, all repeated rows will be removed!)
+__5. What roles were acted in 'Unforgiven'?__
 
-8. Who acted in movies released in 1995?
-9. Who reviewed 'Jerry Maguire'?
+__6. What roles were acted in 'Cloud Atlas'?__
+
+__7. How many different people acted in 'Cloud Atlas'? (Hint: if you say `SELECT DISTINCT` instead of `SELECT`, all repeated rows will be removed!)__
+
+__8. Who acted in movies released in 1995?__
+
+__9. Who reviewed 'Jerry Maguire'?__
