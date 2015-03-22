@@ -37,6 +37,8 @@ __4. Which movies have reviews?__
  
 __5. What roles were acted in 'Unforgiven'?__
 
+    Didn't know how.
+
 __6. What roles were acted in 'Cloud Atlas'?__
 
 __7. How many different people acted in 'Cloud Atlas'? (Hint: if you say `SELECT DISTINCT` instead of `SELECT`, all repeated rows will be removed!)__
@@ -44,3 +46,6 @@ __7. How many different people acted in 'Cloud Atlas'? (Hint: if you say `SELECT
 __8. Who acted in movies released in 1995?__
 
 __9. Who reviewed 'Jerry Maguire'?__
+
+
+
