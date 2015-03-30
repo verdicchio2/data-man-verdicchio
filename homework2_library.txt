@@ -1,0 +1,31 @@
+#Datamanagement 2015
+##Homework 2 - Dirk
+
+#Library
+
+Books
+* id integer
+- book_title text
+- publcation_year integer
+
+People
+* id integer
+- name text
+- adress text
+
+Autors
+-author_id => people.id
+-author_works => books.id
+
+Lender
+-lender => people.id
+-lended_book => books.id
+
+Lended
+-lended_book => books.id
+-lended_date date
+-lended_due date
+
+
+
+

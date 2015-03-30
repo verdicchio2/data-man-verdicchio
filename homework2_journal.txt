@@ -1,0 +1,37 @@
+
+#Datamanagement 2015
+##Homework 2 - Dirk
+
+#journal
+
+
+people
+*id integer
+-name text
+-adress text
+
+articles
+*id integer
+-title text
+-author = people.id
+-pages integer
+
+published
+-article = articles.id
+-pub_date date
+-vol integer
+-issue integer
+-issue text
+
+reviewed
+- article = articles.id
+- reviewer = people.id
+
+status
+- article = articles.id
+- submitted = date
+- accepted = date
+
+
+
+
