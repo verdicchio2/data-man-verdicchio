@@ -2,6 +2,10 @@
 ##Homework 2 - Dirk
 
 #Library
+ 
+# -- SQL is case-sensitive; that means that if your table is called Books
+# then its primary key has to be referred to as Books.id. I've corrected
+# this schema for you.
 
 Books
 * id integer
@@ -14,15 +18,15 @@ People
 - adress text
 
 Autors
--author_id => people.id
--author_works => books.id
+-author_id => People.id
+-author_works => Books.id
 
 Lender
--lender => people.id
--lended_book => books.id
+-lender => People.id
+-lended_book => Books.id
 
 Lended
--lended_book => books.id
+-lended_book => Books.id
 -lended_date date
 -lended_due date
 

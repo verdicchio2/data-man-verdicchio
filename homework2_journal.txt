@@ -4,6 +4,8 @@
 
 #journal
 
+# -- I corrected some stray = signs that needed to be either => or not 
+# there at all.
 
 people
 *id integer
@@ -13,24 +15,24 @@ people
 articles
 *id integer
 -title text
--author = people.id
+-author => people.id
 -pages integer
 
 published
--article = articles.id
+-article => articles.id
 -pub_date date
 -vol integer
 -issue integer
 -issue text
 
 reviewed
-- article = articles.id
-- reviewer = people.id
+- article => articles.id
+- reviewer => people.id
 
 status
-- article = articles.id
-- submitted = date
-- accepted = date
+- article => articles.id
+- submitted date
+- accepted date
 
 
 
